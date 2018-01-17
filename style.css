@@ -1,0 +1,72 @@
+body {
+    padding-top: 65px;
+    background-image: url("bgOpaque2.png");
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: 50%;
+    color: white;
+}
+
+.myCard {
+    color: rgb(81,8,122);
+}
+
+.myHeader {
+    text-align: center;
+}
+
+h1.myHeader {
+    font-weight: 700;
+}
+
+.backg {
+    background-color: rgba(41,6,61,0.4);
+}
+
+.blackText {
+    color: black;
+    text-shadow: -3px 0 white, 0 3px white, 3px 0 white, 0 -3px white;
+    font-weight: 800;
+    text-decoration-style: solid;
+}
+
+.myBord {
+    border: 1px solid;
+    border-color: rgb(81,8,122);
+}
+
+.gameName {
+    font-style: italic; 
+}
+
+.myButton {
+    background-color: rgb(81,8,122);
+    border-color: rgb(81,8,122);
+}
+
+/*https://leaverou.github.io/bubbly*/
+.speech-bubble {
+	position: relative;
+	background: rgba(255,255,255,0.5);
+	border-radius: .4em;
+    font-family: inherit;
+    color: rgb(81,8,122);
+    font-size: 22px;
+    text-align: center;
+    padding: 5px;
+}
+
+.speech-bubble:after {
+	content: '';
+	position: absolute;
+	right: 0;
+	top: 50%;
+	width: 0;
+	height: 0;
+	border: 20px solid transparent;
+	border-left-color: rgba(255,255,255,0.5);
+	border-right: 0;
+	border-bottom: 0;
+	margin-top: -10px;
+	margin-right: -20px;
+}
